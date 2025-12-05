@@ -15,6 +15,7 @@ export default function About() {
             My name is <strong>Mehmet Celal Suoglu</strong>. I am a Software Engineering Technician student
             at Centennial College with a Bachelor's degree in Econometrics from Akdeniz University.
           </p>
+          <br></br>
 
           <p>
             I enjoy learning about web development, building React applications, and working with databases

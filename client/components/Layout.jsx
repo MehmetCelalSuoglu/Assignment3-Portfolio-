@@ -23,7 +23,7 @@ export default function Layout() {
       <header>
         <div className="logoArea">
           <img src={Logo} alt="logo" />
-          <h2>Mehmet Celal Suoglu Portfolio</h2>
+          <h2>Mehmet Celal Suoglu</h2>
         </div>
 
         <nav>

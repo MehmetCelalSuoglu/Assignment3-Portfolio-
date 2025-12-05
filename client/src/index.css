@@ -130,15 +130,16 @@ nav a.active-link {
   background: #3a6cd6;
 }
 
-/* about */
+/* ABOUT – foto üstte, yazı kart içinde */
 
 .about-container {
   display: flex;
+  flex-direction: column;          /* her zaman dikey: foto üstte */
   align-items: center;
-  gap: 2.2rem;
+  gap: 1.3rem;
   max-width: 900px;
-  margin: 2rem auto;
-  padding: 1rem;
+  margin: 1.5rem auto 2rem;
+  padding: 0.5rem 0;
 }
 
 .about-photo {
@@ -151,10 +152,17 @@ nav a.active-link {
 }
 
 .about-text {
-  flex: 1;
-  font-size: 1.05rem;
+  width: 100%;
+  max-width: 750px;
+  font-size: 1.02rem;
   line-height: 1.6;
   color: #e6e6e6;
+
+  background: var(--bg-card);        
+  border-radius: 13px;
+  border: 1px solid #262626;
+  padding: 1.2rem 1.4rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.45);
 }
 
 /* MOBILE HEADER */
@@ -186,6 +194,18 @@ nav a.active-link {
     padding-top: 24px;
     padding-left: 12px;
     padding-right: 12px;
+  }
+
+  /* ABOUT */
+  .about-photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-text {
+    max-width: 100%;
+    font-size: 0.96rem;
+    padding: 1rem 1.1rem;
   }
 }
 
